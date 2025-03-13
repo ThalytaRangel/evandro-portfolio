@@ -11,8 +11,12 @@ body {
 
   --color-background: #282C33;
   --color-foreground:  #fff;
-  --color-primary: hsl(253 69% 53%);
+  --color-primary: #5936DA;
   --color-secondary: hsl(233 57% 55%);
   --color-details: hsl(186 96% 68%);
   --color-border: #ABB2BF;
+  --color-light-blue: #E5E9F0;
+  --color-comments: #607B96;
+  --color-tomato: #E99287;
+  --color-tomato-bright: #F15F4D;
 }

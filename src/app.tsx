@@ -1,13 +1,13 @@
-
+import { Header } from "./components/header"
+import { Hero } from "./components/hero-section"
 
 export function App() {
   
 
   return (
-    <div className="bg-background">
-      <h1 className="text-3xl font-bold text-details font-display ">
-        Hello world!
-      </h1>
+    <div className="bg-background text-foreground min-h-screen font-display">
+      <Header/>
+      <Hero/>
        
     </div>
   )
