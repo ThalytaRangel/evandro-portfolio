@@ -4,7 +4,7 @@ export function About() {
     return (
         <section
             id="about"
-            className="font-display flex flex-col items-center justify-between gap-10 px-6 py-16 lg:max-h-svh lg:flex-row lg:gap-0 lg:px-24 lg:py-28"
+            className="font-display flex flex-col items-center justify-between gap-10 px-6 py-16 lg:flex-row lg:gap-0 lg:px-28 lg:py-32"
         >
             <div
                 id="about-me"
@@ -51,14 +51,18 @@ export function About() {
                 id="technologies"
                 className="flex flex-col p-12 text-start lg:h-[744px]"
             >
-                <div className="flex max-w-full items-center gap-2">
+                <div className="flex items-center gap-2">
                     <h2 className="text-light-blue text-3xl font-normal text-inherit">
                         <span className="text-secondary pe-0.5">#</span>
                         Tecnologias
                     </h2>
                     <div className="border-b-primary flex h-0 w-sm items-end border align-bottom"></div>
                 </div>
-                <img src={TechImage} alt="Foto com ícones das tecnologias" />
+                <img
+                    className=""
+                    src={TechImage}
+                    alt="Foto com ícones das tecnologias"
+                />
             </div>
         </section>
     )
