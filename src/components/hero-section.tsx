@@ -5,49 +5,64 @@ import EvandroPhoto from '../assets/evandro_img.png'
 export function Hero() {
     return (
         <section
-            id="home"
-            className="font-display flex flex-col items-center justify-between gap-10 px-6 py-16 lg:flex-row lg:gap-0 lg:px-28 lg:py-32"
+            id="hero"
+            className="font-display flex min-h-screen w-full flex-col items-center justify-center overflow-hidden lg:flex-row"
         >
-            <div className="flex flex-col p-12 text-start">
-                <p className="text-light-blue mt-4 text-2xl font-normal">
+            <div className="flex w-full flex-col justify-center px-6 py-20 text-start lg:w-5/12 lg:py-0">
+                <p className="text-light-blue mt-4 text-base font-normal lg:text-lg">
                     Olá pessoal, sou o
                 </p>
-                <h2 className="text-5xl font-extrabold">Evandro Damaso</h2>
-                <p className="text-secondary mt-4 text-2xl">
-                    &gt; Desenvolvedor Full Stack
+                <h2 className="text-3xl font-extrabold lg:text-5xl">
+                    Evandro Damaso
+                </h2>
+                <p className="text-secondary mt-4 text-2xl lg:text-3xl">
+                    &gt; Desenvolvedor full stack
                 </p>
-                <p className="text-light-blue mt-6 text-2xl">
-                    He crafts responsive websites where technologies meet
-                    creativity
+                <p className="text-light-blue mt-6 flex-wrap text-sm lg:text-lg">
+                    Crio aplicações eficientes e escaláveis, atuando no
+                    desenvolvimento front-end e back-end.
+                    <br />
+                    Vamos construir algo incrível juntos!
                 </p>
-                <p className="text-comments mt-4 text-xl">
-                    // you can also see it on my Github page
+                <p className="text-comments mt-4 text-xs lg:text-base">
+                    // você pode ver mais sobre meu trabalho no meu Github
                 </p>
-                <p className="text-light-blue mt-6 text-xl">
+                <p className="text-light-blue mt-6 text-xs lg:text-base">
                     <span className="text-secondary">const</span>{' '}
                     <span className="text-details">githubLink</span> ={' '}
                     <a
                         className="text-tomato hover:text-tomato-bright"
                         href="/"
                     >
-                        “https://github.com/example/url”
+                        “https://github.com/dam450”
                     </a>
                 </p>
                 <div className="mt-8 flex gap-10">
-                    <button className="border-secondary hover:border-details hover:text-details flex flex-row items-center gap-2 border px-4 py-2">
+                    <a
+                        href="/caminho-do-seu-cv.pdf"
+                        download="evandro-damaso-cv.pdf"
+                        className="border-secondary hover:border-details hover:text-details flex flex-row items-center gap-2 border px-4 py-2"
+                    >
                         {' '}
                         <IoDocumentOutline />
                         Download CV
-                    </button>
-                    <button className="text-comments border-comments hover:border-foreground hover:text-secondary flex flex-row items-center gap-2 border px-4 py-2">
+                    </a>
+                    <a
+                        href="mailto:evandro.damaso@gmail.com?subject=Contato via Portfolio"
+                        className="text-comments border-comments hover:border-foreground hover:text-secondary flex flex-row items-center gap-2 border px-4 py-2"
+                    >
                         {' '}
                         <MdOutlineMailOutline />
                         Entre em contato
-                    </button>
+                    </a>
                 </div>
             </div>
-            <div>
-                <img src={EvandroPhoto} alt="Foto de Evandro Damaso" />
+            <div className="flex w-full items-center justify-center lg:w-5/12">
+                <img
+                    src={EvandroPhoto}
+                    alt="Foto de Evandro Damaso"
+                    className="h-[300px] w-auto object-contain lg:h-[500px]"
+                />
             </div>
         </section>
     )
