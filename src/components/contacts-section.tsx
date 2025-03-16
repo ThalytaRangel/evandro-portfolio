@@ -16,13 +16,13 @@ export function Contacts() {
             </div>
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                 <div className="flex flex-col gap-4 lg:col-span-2">
-                    <p className="mb-4">
+                    <p className="mb-4 p-4 text-center lg:p-0 lg:text-left">
                         Estou sempre em busca de novos desafios e oportunidades
                         para aplicar minhas habilidades em desenvolvimento web.
                         Se tiver alguma proposta ou quiser trocar ideias,
                         sinta-se à vontade para entrar em contato!
                     </p>
-                    <div className="border-comments flex flex-col justify-center gap-6 self-start border p-8">
+                    <div className="border-comments flex flex-col justify-center gap-6 self-center border p-8 lg:self-start">
                         <h3 className="text-2xl font-semibold">
                             Me acompanhe por aqui!{' '}
                         </h3>
@@ -64,7 +64,7 @@ export function Contacts() {
                         alt="Avatar de Evandro"
                         className="h-64 w-64 rounded-lg object-cover"
                     />
-                    <p className="border-comments absolute -bottom-3 mt-8 flex flex-col gap-2 border p-4">
+                    <p className="border-comments absolute -bottom-14 flex flex-col gap-2 border p-4 lg:-bottom-3 lg:mt-8">
                         Entre em contato comigo:{' '}
                         <span className="flex items-center gap-2 font-mono text-lg">
                             {' '}
