@@ -18,7 +18,7 @@ export function Hero() {
                 <p className="text-secondary mt-4 text-2xl lg:text-3xl">
                     &gt; Desenvolvedor full stack
                 </p>
-                <p className="text-light-blue mt-6 flex-wrap text-sm lg:text-lg">
+                <p className="text-light-blue mt-6 flex-wrap text-sm max-sm:w-sm lg:text-lg">
                     Crio aplicações eficientes e escaláveis, atuando no
                     desenvolvimento front-end e back-end.
                     <br />
