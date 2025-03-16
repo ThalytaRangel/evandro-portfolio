@@ -2,7 +2,7 @@ import TechImage from '../assets/technologies_img.png'
 
 export function About() {
     const text = `Minha jornada começou com JavaScript, explorando seu potencial para criar aplicações dinâmicas e interativas. Desde então, aprofundei meus conhecimentos em React.js, Node.js e Express, sempre focado na componentização, na experiência do usuário e na criação de sistemas escaláveis e otimizados. 
-    Minha experiência inclui desenvolvimento full stack, utilizando APIs RESTful, gerenciadores de pacotes, TypeScript e metodologias ágeis como Scrum e Kanban. 
+    Minha experiência inclui desenvolvimento full stack, utilizando APIs RESTful, gerenciadores de pacotes e metodologias ágeis. 
     Sou formado em Ciência da Computação pela Universidade UNG e também concluí cursos especializados em Redes de Computadores pela Uninove e Desenvolvimento Web Full Stack pela Rocketseat. 
     Muito apaixonado por tecnologia e aprendizado contínuo, estou sempre buscando aprimorar minhas habilidades para desenvolver soluções inovadoras e eficientes.`
 
