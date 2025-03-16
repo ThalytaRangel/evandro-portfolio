@@ -18,7 +18,7 @@ export function About() {
         >
             <div
                 id="about-me"
-                className="flex flex-col text-start lg:h-[744px] lg:w-5/12 lg:py-0"
+                className="flex w-full flex-col text-start lg:h-[744px] lg:w-5/12 lg:py-0"
             >
                 <div className="flex max-w-full items-center gap-2">
                     <h2 className="text-light-blue text-3xl font-normal whitespace-nowrap">
@@ -46,7 +46,7 @@ export function About() {
             </div>
             <div
                 id="technologies"
-                className="flex flex-col text-start lg:h-[744px] lg:w-5/12 lg:py-0"
+                className="flex w-full flex-col text-start lg:h-[744px] lg:w-5/12 lg:py-0"
             >
                 <div className="flex items-center gap-2">
                     <h2 className="text-light-blue text-3xl font-normal text-inherit">
