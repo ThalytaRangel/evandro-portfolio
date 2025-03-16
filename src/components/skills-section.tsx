@@ -22,7 +22,7 @@ export function Skills() {
                         <h3 className="text-foreground border-comments border-b-2 px-2 py-1 text-xl font-normal">
                             Linguagens de programação e Marcação
                         </h3>
-                        <p className="text-comments px-2 py-1">
+                        <p className="text-light-blue px-2 py-1">
                             JavaScript, TypeScript, HTML e CSS
                         </p>
                     </div>
@@ -30,7 +30,7 @@ export function Skills() {
                         <h3 className="text-foreground border-comments mb-4 border-b-2 px-2 py-1 text-xl font-normal">
                             Bancos de Dados e ORM
                         </h3>
-                        <p className="text-comments px-2 py-1">
+                        <p className="text-light-blue px-2 py-1">
                             Nodejs e Prisma
                         </p>
                     </div>
@@ -38,7 +38,7 @@ export function Skills() {
                         <h3 className="text-foreground border-comments mb-4 border-b-2 px-2 py-1 text-xl font-normal">
                             Ferramentas e Editores
                         </h3>
-                        <p className="text-comments px-2 py-1">
+                        <p className="text-light-blue px-2 py-1">
                             Docker, Git, GitHub, VSCode e Figma
                         </p>
                     </div>
@@ -46,7 +46,7 @@ export function Skills() {
                         <h3 className="text-foreground border-comments mb-4 border-b-2 px-2 py-1 text-xl font-normal">
                             Frameworks e Bibliotecas
                         </h3>
-                        <p className="text-comments px-2 py-1">
+                        <p className="text-light-blue px-2 py-1">
                             Reactjs, Nextjs, Astro, Nodejs, Flask, Sass,
                             Tailwindcss Expressjs e Jest
                         </p>
