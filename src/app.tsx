@@ -9,7 +9,7 @@ import { Skills } from './components/skills-section'
 
 export function App() {
     return (
-        <div className="bg-background text-foreground font-display flex min-h-screen flex-col p-2 lg:w-full lg:p-4">
+        <div className="bg-background text-foreground font-display flex min-h-screen flex-col items-center justify-center gap-10 px-4 py-6 lg:w-full lg:p-4">
             <Header />
             <Hero />
             <About />
