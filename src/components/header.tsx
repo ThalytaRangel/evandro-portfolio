@@ -91,7 +91,7 @@ export function Header() {
     }
 
     return (
-        <header className="border-foreground/10 bg-background fixed top-0 flex w-full items-center justify-between border-b px-6 py-6 lg:px-12">
+        <header className="border-foreground/10 bg-background fixed top-0 z-50 flex w-full items-center justify-between border-b px-10 py-6">
             <MenuItem
                 id="home"
                 label="Evandro Damaso"
