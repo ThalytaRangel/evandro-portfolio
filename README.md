@@ -1,5 +1,8 @@
 # Portfólio - Evandro Damaso
 
+[Portfolio Preview](./public/portfolio-preview.gif)
+[Screenshot](./public/screenshot.png)
+
 ## 🚀 Sobre o Projeto
 
 Portfólio construído para o Evandro Damaso como parte das tarefas propostas pelo Lab Yes!.
