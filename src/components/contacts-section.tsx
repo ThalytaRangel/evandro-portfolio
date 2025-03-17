@@ -66,10 +66,13 @@ export function Contacts() {
                     />
                     <p className="border-comments absolute -bottom-14 flex flex-col gap-2 border p-4 lg:-bottom-3 lg:mt-8">
                         Entre em contato comigo:{' '}
-                        <span className="flex items-center gap-2 font-mono text-lg">
+                        <a
+                            href="mailto:evandro.damaso@gmail.com?subject=Contato via Portfolio"
+                            className="hover:text-primary flex items-center gap-2 font-mono text-lg"
+                        >
                             {' '}
                             <MdOutlineMailOutline /> evandro.damaso@gmail.com
-                        </span>
+                        </a>
                     </p>
                 </div>
             </div>
