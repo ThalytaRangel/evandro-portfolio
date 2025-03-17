@@ -5,16 +5,18 @@ import EvandroPhoto from '../assets/evandro_img.png'
 export function Hero() {
     return (
         <section
-            id="hero"
+            id="home"
             className="font-display flex min-h-screen w-full flex-col items-center justify-center overflow-hidden lg:flex-row"
         >
             <div className="flex w-full flex-col justify-center px-6 py-20 text-start lg:w-5/12 lg:py-0">
                 <p className="text-light-blue mt-4 text-base font-normal lg:text-lg">
                     Olá pessoal, sou o
                 </p>
-                <h2 className="text-3xl font-extrabold lg:text-5xl">
-                    Evandro Damaso
-                </h2>
+                <div className="w-fit overflow-hidden">
+                    <h2 className="animate-typing inline-block w-0 overflow-hidden border-r-2 border-transparent pe-2 text-3xl font-extrabold whitespace-nowrap lg:text-5xl">
+                        Evandro Damaso
+                    </h2>
+                </div>
                 <p className="text-secondary mt-4 text-2xl lg:text-3xl">
                     &gt; Desenvolvedor full stack
                 </p>

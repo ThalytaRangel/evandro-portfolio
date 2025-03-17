@@ -19,4 +19,24 @@ body {
   --color-comments: #607B96;
   --color-tomato: #E99287;
   --color-tomato-bright: #F15F4D;
+
+  --animate-typing: typing 2s steps(20)  forwards, blink .7s 8 steps(1);
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes blink {
+    0%, 100% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: white;
+    }    
+  }
 }
