@@ -30,30 +30,30 @@ export function Contacts() {
                             <a
                                 href="https://www.linkedin.com/in/evandro-damaso/"
                                 target="_blank"
-                                className="border-details hover:border-foreground flex h-16 w-16 items-center justify-center rounded-full border-1"
+                                className="border-details hover:border-foreground hover:text-primary flex h-16 w-16 items-center justify-center rounded-full border-1 text-3xl"
                             >
-                                <FaLinkedin className="hover:text-primary text-3xl" />
+                                <FaLinkedin />
                             </a>
                             <a
                                 href="https://github.com/dam450"
                                 target="_blank"
-                                className="border-details hover:border-foreground flex h-16 w-16 items-center justify-center rounded-full border-1"
+                                className="border-details hover:text-primary hover:border-foreground flex h-16 w-16 items-center justify-center rounded-full border-1 text-3xl"
                             >
-                                <FaGithub className="hover:text-primary text-3xl" />
+                                <FaGithub />
                             </a>
                             <a
                                 href="https://discord.com/users/547738105331843077"
                                 target="_blank"
-                                className="border-details hover:border-foreground flex h-16 w-16 items-center justify-center rounded-full border-1"
+                                className="border-details hover:text-primary hover:border-foreground flex h-16 w-16 items-center justify-center rounded-full border-1 text-3xl"
                             >
-                                <FaDiscord className="hover:text-primary text-3xl" />
+                                <FaDiscord />
                             </a>
                             <a
                                 href="https://www.instagram.com/dam450.dev/"
                                 target="_blank"
-                                className="border-details hover:border-foreground flex h-16 w-16 items-center justify-center rounded-full border-1"
+                                className="border-details hover:text-primary hover:border-foreground flex h-16 w-16 items-center justify-center rounded-full border-1 text-3xl"
                             >
-                                <FaInstagram className="hover:text-primary text-3xl" />
+                                <FaInstagram />
                             </a>
                         </div>
                     </div>
