@@ -136,6 +136,7 @@ export function Projects() {
                                     ))}
                                 </div>
                                 <a
+                                    target="_blank"
                                     href={project.deploy}
                                     className="border-secondary hover:bg-primary mt-auto w-fit border px-4 py-2"
                                 >
