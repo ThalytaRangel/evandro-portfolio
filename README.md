@@ -2,11 +2,9 @@
 
 ![Screenshot](./public/screenshot.png)
 
-## 🚀 Sobre o Projeto
+## 🎯 Sobre o Projeto
 
 Portfólio construído para o Evandro Damaso como parte das tarefas propostas pelo Lab Yes!.
-
-## 🎯 Objetivos
 
 O objetivo do projeto era que cada desenvolvedor criasse um portfólio profissional para um dos seus colegas de equipe, destacando suas principais habilidades, experiências e projetos realizados. Todo o conteúdo deveria ser retirado das informações públicas do LinkedIn e GitHub. Buscando assim uma reflexão sobre que imagem temos transmitido nessas rede e o quanto a visão do outro está de fato condizente com a persona que apresentamos no dia a dia da equipe.
 
@@ -24,8 +22,6 @@ O objetivo do projeto era que cada desenvolvedor criasse um portfólio profissio
 - Grid responsivo de habilidades técnicas
 - Links para redes sociais e contato
 - Design responsivo para todas as telas
-
-## 📝 Estrutura do Projeto
 
 ## 📝 Estrutura do Projeto
 
@@ -52,8 +48,6 @@ O projeto utiliza variáveis CSS para cores e fontes, facilmente customizáveis 
 Esse é o layout final da aplicação [Figma](https://www.figma.com/design/BVDbUMJ5zyZUpCJLU42fLM/Portf%C3%B3lio-Evandro?node-id=1-965&t=iVZk1lVyHXPZy7Cp-4)
 
 ## 🚀 Deploy
-
-![Portfolio Preview](./public/portfolio-preview.gif)
 
 O site está disponível em: [evandrodamasodev.netlify.app/](evandrodamasodev.netlify.app/)
 
