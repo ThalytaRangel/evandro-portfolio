@@ -1,7 +1,6 @@
 # Portfólio - Evandro Damaso
 
-[Portfolio Preview](./public/portfolio-preview.gif)
-[Screenshot](./public/screenshot.png)
+![Screenshot](./public/screenshot.png)
 
 ## 🚀 Sobre o Projeto
 
@@ -51,6 +50,12 @@ Além disso, para deixar o design o mais próximo da minha concepção de profis
 O projeto utiliza variáveis CSS para cores e fontes, facilmente customizáveis em `src/index.css`.
 
 Esse é o layout final da aplicação [Figma](https://www.figma.com/design/BVDbUMJ5zyZUpCJLU42fLM/Portf%C3%B3lio-Evandro?node-id=1-965&t=iVZk1lVyHXPZy7Cp-4)
+
+## 🚀 Deploy
+
+![Portfolio Preview](./public/portfolio-preview.gif)
+
+O site está disponível em: [evandrodamasodev.netlify.app/](evandrodamasodev.netlify.app/)
 
 ## 📄 Licença
 
