@@ -6,7 +6,7 @@ const menuItems = [
     { id: 'skills', label: 'Habilidades' },
     { id: 'projects', label: 'Projetos' },
     { id: 'experience', label: 'Experiências' },
-    { id: 'contacts', label: 'Contatos' },
+    { id: 'contacts', label: 'Contato' },
 ] as const
 
 type MenuItemProps = {

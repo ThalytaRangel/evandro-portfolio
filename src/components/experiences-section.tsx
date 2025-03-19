@@ -26,7 +26,7 @@ export function Experiences() {
         >
             <div className="mb-12 flex w-full items-center gap-2">
                 <h2 className="text-light-blue text-3xl font-normal whitespace-nowrap">
-                    <span className="text-secondary pe-0.5">#</span>Experiência
+                    <span className="text-secondary pe-0.5">#</span>Experiências
                 </h2>
                 <div className="border-b-primary flex h-0 w-full items-end border align-bottom"></div>
             </div>
