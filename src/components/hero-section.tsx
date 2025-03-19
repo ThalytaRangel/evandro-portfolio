@@ -41,7 +41,7 @@ export function Hero() {
                 </p>
                 <div className="mt-8 flex gap-10">
                     <a
-                        href="/public/evandro-damaso-cv.pdf"
+                        href="/evandro-damaso-cv.pdf"
                         download="evandro-damaso-cv.pdf"
                         className="border-secondary hover:border-details hover:text-details flex flex-row items-center gap-2 border px-4 py-2"
                     >
