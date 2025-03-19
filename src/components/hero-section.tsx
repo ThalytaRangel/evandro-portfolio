@@ -34,7 +34,7 @@ export function Hero() {
                     <span className="text-details">githubLink</span> ={' '}
                     <a
                         className="text-tomato hover:text-tomato-bright"
-                        href="/"
+                        href="https://github.com/dam450"
                     >
                         “https://github.com/dam450”
                     </a>
