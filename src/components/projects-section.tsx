@@ -105,7 +105,7 @@ export function Projects() {
     return (
         <section
             id="projects"
-            className="font-display flex w-full flex-col lg:px-28"
+            className="font-display flex w-full flex-col pt-24 lg:px-28"
         >
             <div className="mb-12 flex w-full items-center gap-2">
                 <h2 className="text-light-blue text-3xl font-normal whitespace-nowrap">

@@ -7,14 +7,14 @@ export function About() {
     Muito apaixonado por tecnologia e aprendizado contínuo, estou sempre buscando aprimorar minhas habilidades para desenvolver soluções inovadoras e eficientes.`
 
     const lines = text.split('\n').flatMap((paragraph) => {
-        const matches = paragraph.match(/.{1,50}(?:\s|$)/g)
+        const matches = paragraph.match(/.{1,45}(?:\s|$)/g)
         return matches ? matches.filter(Boolean) : []
     })
 
     return (
         <section
             id="about"
-            className="font-display flex min-h-screen w-full flex-col items-center justify-center gap-10 overflow-hidden lg:flex-row lg:gap-6"
+            className="font-display flex min-h-screen w-full flex-col items-center justify-center gap-10 overflow-hidden pt-24 lg:flex-row lg:gap-6"
         >
             <div
                 id="about-me"

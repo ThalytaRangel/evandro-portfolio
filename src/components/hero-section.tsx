@@ -6,7 +6,7 @@ export function Hero() {
     return (
         <section
             id="home"
-            className="font-display flex min-h-screen w-full flex-col items-center justify-center overflow-hidden lg:flex-row"
+            className="font-display flex min-h-screen w-full flex-col items-center justify-center overflow-hidden pt-20 lg:flex-row"
         >
             <div className="flex w-full flex-col justify-center px-6 py-20 text-start lg:w-5/12 lg:py-0">
                 <p className="text-light-blue mt-4 text-base font-normal lg:text-lg">
