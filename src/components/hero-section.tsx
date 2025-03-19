@@ -35,6 +35,7 @@ export function Hero() {
                     <a
                         className="text-tomato hover:text-tomato-bright"
                         href="https://github.com/dam450"
+                        target="_blank"
                     >
                         “https://github.com/dam450”
                     </a>
